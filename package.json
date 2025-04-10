@@ -7,7 +7,7 @@
     "build": "tsc && vite build",
     "serve": "vite preview",
     "test": "vitest --ui",
-    "test-no-ui": "vitest",
+    "test-no-ui": "vitest run",
     "lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx --quiet --fix",
     "lint:format": "prettier  --log-level warn --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\" ",
     "lint": "npm run lint:format && npm run lint:fix ",

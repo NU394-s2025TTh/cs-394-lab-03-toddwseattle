@@ -4,6 +4,8 @@ import React, { useEffect, useState } from 'react';
 
 import { Todo } from '../types/todo-type';
 
+type FilterType = 'all' | 'open' | 'completed';
+
 interface TodoListProps {
   onSelectTodo: (id: number) => void;
 }
